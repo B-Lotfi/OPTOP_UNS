@@ -1,4 +1,4 @@
-%%%%%%%%%% MESH-INDEPENDENCY FILTER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% MESH-INDEPENDENCY FILTER %%%%%%%%%%%%%%%%%%
 function [dcn]=check(nelx,nely,rmin,x,dc,voisin,coord)
 dcn=zeros(nely*nelx,1);
 for i=1:nelx*nely
